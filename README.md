@@ -20,3 +20,4 @@ This contribution is part of our Open Source Software Chapter 6 assignment.
 ### Why GitHub Collaboration Matters
 
 GitHub allows developers to work together using branches, pull requests, and code reviews. These features help teams manage changes and improve their projects.
+Thanks for sharing your project! I'm happy to contribute and help improve it.
