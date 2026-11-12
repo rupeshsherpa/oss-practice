@@ -20,3 +20,27 @@ This contribution is part of our Open Source Software Chapter 6 assignment.
 ### Why GitHub Collaboration Matters
 
 GitHub allows developers to work together using branches, pull requests, and code reviews. These features help teams manage changes and improve their projects.
+
+
+## Chapter 8 - My First Hello Tool
+
+This Python tool welcomes users and displays a student study dashboard using the open-source library tabulate.
+
+### Library Used
+- tabulate==0.10.0
+
+### Installation
+```cmd
+pip install -r requirements.txt
+```
+
+### How to Run
+```cmd
+python hello_tool.py --name Rupesh
+```
+
+### Features
+- Personalized greeting
+- Student study dashboard
+- Formatted table using tabulate
+- Command-line name argument
