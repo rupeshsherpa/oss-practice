@@ -14,12 +14,12 @@ def main():
 
     df = pd.read_csv(args.file)
 
-    # Keep servers with high CPU and memory usage
+    # Keep servers with high disk usage and low CPU usage
     filtered = df[
-        (df["cpu"] >= 70) & (df["memory"] >= 60)
+        (df["disk"] >= 70) & (df["cpu"] < 50)
     ]
 
-    table = Table(title="High Resource Usage Servers")
+    table = Table(title="High Disk Usage with Low CPU")
 
     for column in filtered.columns:
         table.add_column(column)
