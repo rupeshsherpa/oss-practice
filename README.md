@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### How to Run
 ```cmd
-python hello_tool.py --name Rupesh
+python tools/hello_tabulate.py --name Rupesh
 ```
 
 ### Features

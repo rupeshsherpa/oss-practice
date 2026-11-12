@@ -22,7 +22,7 @@ def main():
     print(tabulate(
         tasks,
         headers=["Subject", "Task"],
-        tablefmt="grid"
+        tablefmt="fancy_grid"
     ))
 
 
