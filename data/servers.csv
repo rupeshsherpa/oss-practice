@@ -1,0 +1,14 @@
+
+name,cpu,memory,disk,status
+web-01,35,52,41,ok
+web-02,42,61,85,ok
+db-01,78,88,92,warn
+db-02,55,70,63,ok
+mail-01,22,45,38,ok
+file-01,18,40,97,warn
+backup-01,12,30,88,ok
+dns-01,8,20,25,ok
+vpn-01,91,64,47,warn
+log-01,30,58,72,ok
+app-01,87,93,55,warn
+monitor-01,25,48,34,ok
